@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- Order Summary Modal -->
+<div id="orderSummaryModal" class="order-summary-modal">
+    <div class="summary-content">
+        <!-- Summary Header -->
+        <div class="summary-header">
+            <h2>Order Summary</h2>
+            <button class="close-summary" onclick="closeOrderSummary()">×</button>
+        </div>
+
+        <!-- Table Information -->
+        <div class="table-info">
+            <svg width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+            </svg>
+            <div class="table-info-text">
+                <strong id="selectedTableDisplay">Table 5</strong>
+                <div style="font-size: 14px; color: var(--secondary-text);">Your reserved table</div>
+            </div>
+        </div>
+
+
+        <!-- Order Items List -->
+        <div class="order-items-list" id="orderItemsList">
+            <!-- Items will be dynamically inserted here -->
+        </div>
+
+        <!-- Order Totals -->
+        <div class="order-totals">
+            <div class="total-row subtotal">
+                <span>Subtotal:</span>
+                <span id="summarySubtotal">₱0</span>
+            </div>
+            <div class="total-row delivery-fee">
+                <span>Service Fee:</span>
+                <span>₱50</span>
+            </div>
+            <div class="total-row grand-total">
+                <span>Total:</span>
+                <span id="summaryGrandTotal">₱0</span>
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="summary-actions">
+            <button class="back-btn" onclick="goBackToTableSelection()">
+                Back
+            </button>
+            <button class="place-order-btn" onclick="confirmOrder()">
+                Place Order
+            </button>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>

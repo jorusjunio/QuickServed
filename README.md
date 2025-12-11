@@ -15,11 +15,12 @@ Want to run this project on your machine? No problem! Just follow these easy ste
 
 ### **Step 1:** Grab the Code
 Open up your Terminal or Command Prompt and clone the repository:
-
+```
 _git clone [YOUR GITHUB REPO LINK GOES HERE]
 cd quickserved-project_
+```
 
-###**Step 2:** Database Setup (The MySQL Part)
+### **Step 2:** Database Setup (The MySQL Part)
 This is the most important part—we need to build the database.
 
 **A. Import the Schema**
@@ -27,7 +28,7 @@ This is the most important part—we need to build the database.
 1. Open your MySQL Workbench or whatever database tool you use.
 2. Create a new database named quickserved_db:
 
-``_CREATE DATABASE quickserved_db;_``
+```_CREATE DATABASE quickserved_db;_```
 
 3. Find the quickserved_db.sql file in the project folder and import it into the quickserved_db database. This sets up all the tables (like orders and menu_items) and adds the default menu items.
 
@@ -37,7 +38,7 @@ Open the server.js file.
 You must change the database login details to match your own MySQL username and password.
 
 // server.js (Around Line 10-15)
-
+```
 _const db = mysql.createConnection
 ({
     host: 'localhost',
@@ -45,12 +46,12 @@ _const db = mysql.createConnection
     password: '', // <-- CHANGE THIS TO YOUR MYSQL PASSWORD
     database: 'quickserved_db'
 });_
-
+```
 ### **Step 3: Run the Backend**
 1. First, install all the necessary Node.js packages:
-``_npm install_``
+```_npm install_```
 2. Then, start the server!
-``_node server.js_``
+```_node server.js_```
 
 You should see: ``_🟢 Connected to MySQL Workbench DB. and 🚀 Server running on http://localhost:3000_``
 

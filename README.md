@@ -1,4 +1,4 @@
-🍽️ QuickServed: Fast Food Order Manager
+# 🍽️ QuickServed: Fast Food Order Manager
 Hey there! Welcome to the QuickServed project. This is a full-stack (think HTML/JS/Node.js/MySQL) app that simulates how a real fast-food joint handles orders, especially focusing on how we use cool Data Structures and Algorithms (DSA) to make everything super quick and efficient!
 
 📌 Tech Stack

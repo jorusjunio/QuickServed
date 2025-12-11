@@ -2,7 +2,7 @@
 Hey there! Welcome to the QuickServed project. This is a full-stack (think HTML/JS/Node.js/MySQL) app that simulates how a real fast-food joint handles orders, especially focusing on how we use cool Data Structures and Algorithms (DSA) to make everything super quick and efficient!
 
 📌 Tech Stack
-- We used a mix of technologies to build this:
+- We used a mix of technologies to build this: 
 - Frontend: HTML, CSS, and Vanilla JavaScript
 - Backend: Node.js (with the Express framework)
 - Database: MySQL (Where all the magic happens)

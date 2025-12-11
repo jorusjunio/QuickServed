@@ -13,13 +13,13 @@ Hey there! Welcome to the QuickServed project. This is a full-stack (think HTML/
 🚀 Quick Setup Guide (Get Running in 5 Minutes!)
 Want to run this project on your machine? No problem! Just follow these easy steps.
 
-**Step 1:** Grab the Code
+###**Step 1:** Grab the Code
 Open up your Terminal or Command Prompt and clone the repository:
 
 ``_git clone [YOUR GITHUB REPO LINK GOES HERE]
 cd quickserved-project_``
 
-**Step 2:** Database Setup (The MySQL Part)
+###**Step 2:** Database Setup (The MySQL Part)
 This is the most important part—we need to build the database.
 
 **A. Import the Schema**
@@ -36,7 +36,7 @@ This is the most important part—we need to build the database.
 Open the server.js file.
 You must change the database login details to match your own MySQL username and password.
 
-### // server.js (Around Line 10-15)
+// server.js (Around Line 10-15)
 
 ``_const db = mysql.createConnection
 ({
@@ -46,7 +46,7 @@ You must change the database login details to match your own MySQL username and 
     database: 'quickserved_db'
 });_``
 
-**Step 3: Run the Backend**
+###**Step 3: Run the Backend**
 1. First, install all the necessary Node.js packages:
 ``_npm install_``
 2. Then, start the server!
@@ -54,7 +54,7 @@ You must change the database login details to match your own MySQL username and 
 
 You should see: ``_🟢 Connected to MySQL Workbench DB. and 🚀 Server running on http://localhost:3000_``
 
-**Step 4: Launch the App**
+###**Step 4: Launch the App**
 1. Open your favorite web browser (like Chrome).
 2. Just drag and drop the landingPage.html file into the browser window.
 3. Start ordering and see the magic happen!

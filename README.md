@@ -10,14 +10,14 @@ Hey there! Welcome to the QuickServed project. This is a full-stack (think HTML/
 
 ---
 
-🚀 Quick Setup Guide (Get Running in 5 Minutes!)
+```🚀 Quick Setup Guide (Get Running in 5 Minutes!)
 Want to run this project on your machine? No problem! Just follow these easy steps.
 
 ### **Step 1:** Grab the Code
 Open up your Terminal or Command Prompt and clone the repository:
 
-``_git clone [YOUR GITHUB REPO LINK GOES HERE]
-cd quickserved-project_``
+_git clone [YOUR GITHUB REPO LINK GOES HERE]
+cd quickserved-project_
 
 ###**Step 2:** Database Setup (The MySQL Part)
 This is the most important part—we need to build the database.
@@ -38,13 +38,13 @@ You must change the database login details to match your own MySQL username and 
 
 // server.js (Around Line 10-15)
 
-``_const db = mysql.createConnection
+_const db = mysql.createConnection
 ({
     host: 'localhost',
     user: 'root', // <-- CHANGE THIS TO YOUR MYSQL USERNAME
     password: '', // <-- CHANGE THIS TO YOUR MYSQL PASSWORD
     database: 'quickserved_db'
-});_``
+});_
 
 ### **Step 3: Run the Backend**
 1. First, install all the necessary Node.js packages:

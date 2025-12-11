@@ -10,7 +10,7 @@ Hey there! Welcome to the QuickServed project. This is a full-stack (think HTML/
 
 ---
 
-```🚀 Quick Setup Guide (Get Running in 5 Minutes!)
+🚀 Quick Setup Guide (Get Running in 5 Minutes!)
 Want to run this project on your machine? No problem! Just follow these easy steps.
 
 ### **Step 1:** Grab the Code

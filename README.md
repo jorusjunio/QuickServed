@@ -37,13 +37,13 @@ Open the server.js file.
 You must change the database login details to match your own MySQL username and password.
 
 // server.js (Around Line 10-15)
-_const db = mysql.createConnection
+``_const db = mysql.createConnection
 ({
     host: 'localhost',
     user: 'root', // <-- CHANGE THIS TO YOUR MYSQL USERNAME
     password: '', // <-- CHANGE THIS TO YOUR MYSQL PASSWORD
     database: 'quickserved_db'
-});_
+});_``
 
 **Step 3: Run the Backend**
 1. First, install all the necessary Node.js packages:
